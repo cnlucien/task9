@@ -1,0 +1,246 @@
+html{
+    font-size: 125%;
+}
+p,ul{
+    margin: 0;
+    padding: 0;
+}
+.margin-top-30px{
+    margin-top: 30px;
+}
+.margin-bottom-30px{
+    margin-bottom: 30px;
+}
+.margin-top-20px{
+    margin-top: 20px;
+}
+.margin-bottom-20px{
+    margin-bottom: 20px;
+}
+.margin-left{
+    margin-left: 5px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.inline-block{
+    display: inline-block;
+}
+/*-----------------------head------------------------------------*/
+
+img{
+    max-width: 100%;
+}
+.head1{
+    height: 40px;
+    line-height: 40px;
+
+}
+div.head1 p{
+    color: #2AB079;
+}
+
+/*---------------------foot-------------------------------------*/
+.round1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(153, 153, 153);
+
+}
+.vertical-middle{
+    vertical-align: middle;
+}
+.bg-foot{
+    background-color: rgb(38, 162, 111);
+    padding-top: 20px;
+}
+.color-white{
+    color: #ffffff;
+}
+div.bg-foot a:link,
+div.bg-foot a:visited,
+div.bg-foot a:hover,
+div.bg-foot a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+.qr{
+    height: 112px;
+    position: absolute;
+    right: 19%;
+    top: 44px;
+}
+.margin-bottom1{
+    margin-bottom: 20px;
+}
+.size{
+    font-size: 10px;
+    border-top:solid 1px #33C087;
+    padding:5px 0;
+}
+.margin-left1{
+    margin-left: 20px;
+}
+.paragraph4 {
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+    margin: 10px 0;
+}
+/*--------------------------<=767px-------------------------------------*/
+@media screen and (max-width: 767px) {
+    .head1 {
+        height: 80px;
+    }
+    .center {
+        text-align: center;
+    }
+}
+/*------------------------------------------------------------*/
+@media screen and (max-width:991px) {
+    .head2 li {
+        width: 60px;
+    }
+    .head2 {
+        height: 100px;
+        line-height: 50px;
+        text-align: center;
+    }
+    ul{
+        text-align: center;
+    }
+    .paragraph {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .wrap {
+        padding: 23px;
+    }
+
+    .one {
+        position: static;
+        top: 0;
+        transform: translateY(0);
+    }
+}
+/*----------------------------------main----------------------------------------*/
+main{
+    background-color: #FAFAFA;
+    padding-bottom: 100px;
+}
+p.paragraph1 a:link,
+p.paragraph1 a:visited,
+p.paragraph1 a:hover,
+p.paragraph1 a:active{
+    color: #000000;
+    text-decoration: none;
+}
+.paragraph1{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+}
+.paragraph2{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(38, 162, 111);
+}
+.paragraph3{
+    font-size: 13px;
+    color: #A1A1A1;
+}
+.paragraph5{
+    font-size: 16px;
+    vertical-align: middle;
+}
+div.paragraph5  a{
+    color:#000000 !important;
+}
+div.paragraph5 a:link,
+div.paragraph5 a:visited,
+div.paragraph5 a:hover,
+div.paragraph5 a:active{
+    color: #000000 !important;
+    text-decoration: none;
+}
+div.paragraph5:hover p,
+div.paragraph5:visited p{
+    background-color: rgb(38, 162, 111);
+    color: #ffffff;
+}
+
+hr{
+    margin: 0 !important;
+}
+.hr1{
+    border-top:solid 1px #D0D6D9;
+}
+.margin-left-30px{
+    margin-left: 30px;
+}
+.title {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    font-family: 黑体;
+}
+div.item{
+    border: solid 1px #F6F6F6;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+div.item div{
+    margin: 0 !important;
+}
+.border-bottom{
+    border-bottom: solid 1px #EDF1F2;
+}
+.border-right{
+    border-right: solid 1px #EDF1F2;
+}
+.border-left{
+    border-left: solid 1px #EDF1F2;
+}
+/*div.item div.row{*/
+    /*padding: 5px 0;*/
+/*}*/
+.font-size-18px{
+    font-size: 10px;
+}
+.padding-15px{
+    padding: 15px 8px;
+}
+.padding-20px{
+    padding: 15px 15px;
+}
+.padding-66px{
+    padding: 66px 8px;
+}
+.color-red{
+    color: red;
+}
+.padding-0{
+    padding:0;
+ }
+.bg-transparent{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(62,62,62,0.8);
+    padding: 100px 20px;
+    display: none;
+}
+div.item:hover div.bg-transparent{
+    display: block;
+}

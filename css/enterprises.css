@@ -1,0 +1,241 @@
+html{
+    font-size: 125%;
+}
+p,ul{
+    margin: 0;
+    padding: 0;
+}
+.margin-top{
+    margin-top: 30px;
+}
+.margin-left{
+    margin-left: 5px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.inline-block{
+    display: inline-block;
+}
+/*-----------------------head------------------------------------*/
+
+header{
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+}
+.head1{
+    height: 40px;
+    line-height: 40px;
+
+}
+div.head1 p{
+    color: #2AB079;
+}
+
+div.item img{
+    width: 100%;
+}
+
+/*---------------------foot-------------------------------------*/
+.round1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(153, 153, 153);
+
+}
+.vertical-middle{
+    vertical-align: middle;
+}
+.bg-foot{
+    background-color: rgb(38, 162, 111);
+    padding-top: 20px;
+}
+div.bg-foot a:link,
+div.bg-foot a:visited,
+div.bg-foot a:hover,
+div.bg-foot a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+.color-white{
+    color: #ffffff;
+}
+.qr{
+    height: 112px;
+    position: absolute;
+    right: 19%;
+    top: 44px;
+}
+.margin-bottom1{
+    margin-bottom: 20px;
+}
+.size{
+    font-size: 10px;
+    border-top:solid 1px #33C087;
+    padding:5px 0;
+}
+.margin-left1{
+    margin-left: 20px;
+}
+.paragraph4 {
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+    margin: 10px 0;
+}
+.title {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin: 10px 0;
+    font-family: 黑体;
+}
+/*--------------------------<=767px-------------------------------------*/
+@media screen and (max-width:767px) {
+    .head2 li {
+        width: 60px;
+    }
+
+    .head1 {
+        height: 80px;
+    }
+
+    .head2 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .paragraph {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .wrap {
+        padding: 23px;
+    }
+
+    .one {
+        position: static;
+        top: 0;
+        transform: translateY(0);
+    }
+
+}
+/*--------------------------main-------------------------------------*/
+main{
+    overflow: hidden;
+    background-color: #FAFAFA;
+}
+main a:link,
+main a:visited,
+main a:hover,
+main a:active{
+    color: #000000;
+    text-decoration: none;
+}
+.inline-block{
+    display: inline-block;
+}
+.paragraph1{
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+}
+.paragraph2{
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: rgb(38, 162, 111);
+}
+.margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border: solid 1px rgb(255,144,82);
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.company-p{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(38, 162, 111);
+    vertical-align: middle;
+}
+li.block{
+    padding: 10px;
+}
+.company-wrap{
+    border: solid 1px  rgb(153, 153, 153);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ali-padding{
+    padding-top:30px;
+}
+main div.text-left{
+    width: 94px;
+}
+.company{
+    border-bottom: solid 1px rgb(153, 153, 153);
+}
+.paragraph {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    margin-left: 140px;
+}
+.paragraph3 {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+main img.inline-block{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.padding-top-40px{
+    padding-top:40px;
+}
+.padding-bottom-40px{
+    padding-bottom:40px;
+}
+.padding-l-r-50px{
+    padding-left:50px;
+    padding-right:50px;
+}
+hr{
+    border-color: rgb(153, 153, 153) !important;
+    margin: 0 !important;
+}
+.margin-bottom-150px{
+    margin-bottom: 150px;
+}
+div.item:visited div.circle{
+    background-color: #F9A473;
+}
+div.item:visited p.company-p{
+    color: #FF6610;
+}
+div.item:hover div.circle{
+    background-color: #F9A473;
+}
+div.item:hover p.company-p{
+    color: #FF6610;
+}
